@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p, 
+a,
+li {
+    font-family: sans-serif;
+}
+
+.header-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #FFEBDB;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    background-color: #25424C;
+    padding: 0 8px;
+}
+
+.logo {
+    height: 75px;
+}
+
+.nav-phone {
+    align-self: center;
+    text-decoration: none;
+    color: #FFEBDB;
+    font-weight: 700;
+}
+
+.header-hero-container {
+    padding: 0 8px;
+}
+
+.header-hero {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-hero-list {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.list-items {
+    margin-bottom: 8px;
+}
+
+.btn {
+    align-self: stretch;
+    margin: 0 12px 24px;
+}
+
+.header-btn {
+    width: 100%;
+    padding: 16px;
+    background-color: #FB770D;
+    border: 1px solid transparent;
+    border-radius: 12px;
+}
+
+.header-btn:hover {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    transform: translateY(-1px);
+}
+
+.btn-text,
+.phone-link {
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.btn-text{
+    margin-bottom: 8px;
+}
+
+.benefits-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 12px;
+    gap: 15px;
+}
+
+.benefits-item {
+    text-align: center;
+    font-size: 60px;
+    color: #FFA45B;
+    width: 100px;
+}
+
+.benefits-item:hover {
+    color: #FB770D;
+}
+
+.benefits-item .item-text {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.content-container {
+    background-color: #FFEBDB;
+    padding: 20px 12px;
+}
+
+.content-header-text {
+    text-align: center;
+    margin-bottom: 28px;
+    font-weight: 700;
+}
+
+.banya-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 12px;
+    align-items: stretch;
+}
+
+.banya-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banya-type img {
+    margin-bottom: 18px;
+}
+
+.banya-text {
+    margin-top: auto;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cta-container {
+    padding: 0 0 20px;
+}
+
+.cta-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.cta-content img {
+    max-width: 100%;
+}
+
+.cta-message {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cta-text {
+    color: #25424C;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px 12px;
+}
